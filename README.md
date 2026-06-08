@@ -27,7 +27,7 @@ purrcat install skill <url-to-the-single-skill-dir>
 ### 安装示例
 
 ```bash
-purrcat install skill `https://github.com/your-username/skillpod/tree/main/official/stem-note-skill` 
+purrcat install skill https://github.com/PurrPod/skillpod/tree/main/official/stem-note-skill
 
 ```
 
