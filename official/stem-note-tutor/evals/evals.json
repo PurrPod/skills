@@ -1,0 +1,171 @@
+{
+  "skill_name": "stem-note-tutor",
+  "triggers": [
+    {
+      "query": "帮我分阶段讲解这份课件，先从第一阶段开始吧",
+      "should_trigger": true
+    },
+    {
+      "query": "我想学代数结构，给我讲课件",
+      "should_trigger": true
+    },
+    {
+      "query": "帮我辅导一下这门课的课件，从大局观开始逐步深入",
+      "should_trigger": true
+    },
+    {
+      "query": "辅导代数结构课件，从引言开始逐步深入讲解",
+      "should_trigger": true
+    },
+    {
+      "query": "把这份PDF讲一遍",
+      "should_trigger": false
+    },
+    {
+      "query": "傅里叶变换的公式怎么推导？",
+      "should_trigger": false
+    },
+    {
+      "query": "帮我把课件内容整理成思维导图",
+      "should_trigger": false
+    },
+    {
+      "query": "帮我写一个群论相关的论文摘要",
+      "should_trigger": false
+    }
+  ],
+  "evals": [
+    {
+      "id": "eval_algebra_lec01",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture01-IntroAndBasic(1).pptx，工作目录是 /agent_vm/代数结构/notes/lec01，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与代数结构相关，涵盖引言和基本概念"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec02",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture02-GenAlgebra(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec02，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与一般代数系统相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec03",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture03-GroupBasic(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec03，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与群的基本概念相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec04",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture04-SpecialGroup.pptx，工作目录是 /agent_vm/代数结构/notes/lec04，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与特殊群（如置换群、循环群等）相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec05",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture05-GroupCoset(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec05，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与群的陪集相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec06",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture06-GroupInvariant(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec06，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与不变子群（正规子群）相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec07",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture07-GroupHom(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec07，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与群的同态相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec08",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture08-GroupProd(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec08，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与群的直积相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec09",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture09-RingBasic(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec09，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与环的基本概念相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec10_v2",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture10-RingIdeal(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec10，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与环的理想相关"
+      ]
+    },
+    {
+      "id": "eval_algebra_lec11",
+      "prompt": "课件在 /agent_vm/代数结构/Lecture11-RingHom(pre).pptx，工作目录是 /agent_vm/代数结构/notes/lec11，请用 stem-note-tutor 技能分阶段讲解，先开始 Stage 1，自行回答并生成 stage1.md",
+      "expected_output": "Agent 读取课件，调用 stage_manager.py --stage=1，自行回答课件核心思想，生成 stage1.md",
+      "assertions": [
+        "必须读取课件内容",
+        "必须调用 scripts/stage_manager.py 获取提示词",
+        "必须生成 stage1.md 文件到工作目录下",
+        "Agent 自行完成回答，不能反问用户",
+        "讲解内容必须与环的同态相关"
+      ]
+    }
+  ]
+}
