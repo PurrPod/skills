@@ -55,6 +55,7 @@ skills/
 <!-- BEGIN_OFFICIAL_TABLE -->
 | 技能短名 (Install ID) | 技能名称 | 描述 | 作者 |
 | :--- | :--- | :--- | :--- |
+| **`paper-mentor`** | [paper-mentor](https://github.com/PurrPod/skillpod/tree/main/official/paper-mentor) | Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete 4-stage deep study — from prerequisites to code architecture to live experiment observation. The skill produces 4 markdown files in a progressive, self-contained reconstruction notebook style. | PurrCat Contributor |
 | **`stem-note-tutor`** | [stem-note-tutor](https://github.com/PurrPod/skillpod/tree/main/official/stem-note-tutor) | Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery. | PurrCat Contributor |
 
 <!-- END_OFFICIAL_TABLE -->
