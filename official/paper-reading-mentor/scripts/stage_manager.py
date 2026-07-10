@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
-paper-mentor 阶段管理器
-用法: python3 scripts/stage_manager.py --stage=<1|2|3|4> --workdir=<工作目录>
+paper-reading-mentor 阶段管理器
+用法: python3 scripts/stage_manager.py --stage=<1|2|3|4|5> --workdir=<工作目录>
 
 --stage:   阶段编号 1-4
---workdir: 工作目录（存放 stageN.md 的位置），默认为当前目录
+--workdir: 工作目录（存放各阶段 markdown 文件的位置），默认为当前目录
 
 注意：该脚本的 prompts 采用自问自答式设计——每个 prompt 中嵌入选择题，
 要求 agent 在文档中自行提问、自行解答，行云流水，一气呵成。
@@ -19,8 +19,9 @@ import sys
 
 def check_prereq(stage: int, workdir: str):
     """检查前置 stage 文件是否存在"""
-    names = {1: "stage1.md", 2: "stage2.md",
-             3: "stage3.md", 4: "stage4.md"}
+    names = {1: "PreKnowledgeTree.md", 2: "PaperRebirth.md",
+             3: "ArchitectureBlueprint.md", 4: "ExecutionCompanion.md",
+             5: "ResearchEvolution.md"}
     for s in range(1, stage):
         fname = os.path.join(workdir, names[s])
         if not os.path.isfile(fname):
@@ -128,7 +129,7 @@ PROMPTS = {
 ### 5. 公式即设计语言
 - 用自然语言描述设计目标（一句话）
 - 逐步推导出数学约束
-- 每个约束 → 一个公式 → 2-4 行伪代码
+- 每个约束 → 一个公式 → 2-4 行符合编程风格的伪代码（不要使用注释型伪代码，行数可根据实际情况调整）
 
 ### 6. 结尾映射表
 | 作者想法 | 数学表达 | 代码实现 | 软件职责 |
@@ -153,7 +154,30 @@ PROMPTS = {
 如果论文有开源代码，阅读真实源码后写出这份文档。
 如果没有开源代码，用 Stage 3 推导出的伪代码来演示。
 
-**文档结构（三段式）：**
+**核心策略：分层递进。先跑起来，再谈复现。**
+
+不要一上来就试图复现论文的完整实验（72h 训练 / 8×A100 等）。
+很多论文的官方实验你根本跑不了。
+
+按以下优先级递进：
+
+### Tier 1 — CPU 可运行的最小 Demo（最优先）
+- 提取论文核心机制中**不需要 GPU / 不需要长训练**的部分
+- 写一个能在普通笔记本 CPU 上几秒内跑完的脚本
+- 例如：单步前向传播、一次梯度更新、一个小规模 toy example
+- 目的是：让读者亲眼看到核心公式在 CPU 上执行
+
+### Tier 2 — 缩小版 Demo
+- 在 Tier 1 基础上，增加参数规模、运行轮次，但仍限定在可执行范围内
+- 展示关键指标的变化趋势（如 loss 下降、准确率上升）
+- 如果论文有公开的 pre-trained model / checkpoint，尝试加载并跑推理
+
+### Tier 3 — 介绍官方实验（注明不可复现）
+- 描述论文的官方实验配置（数据集、超参、硬件）
+- 如果因为资源限制无法复现，**明确标注**：以下结果来自论文原文，非本机运行
+- 展示论文的 Figure / Table，并解释"如果跑通了应该看到什么"
+
+**文档结构（五段式）：**
 
 ### 1. 运行前——先解释即将看到什么
 - 每个实验配置对应论文的哪个设定
@@ -170,7 +194,20 @@ PROMPTS = {
 - "如果改变这个超参数会怎样？"
 - "这个现象对应论文的 Theorem X / Lemma X"
 
-### 4. 末尾总结表
+### 4. Verification Checklist（验证清单）
+
+这不是结束。这是给未来读者的复现手册。
+
+列出验证论文可复现性的**关键检查节点**：
+
+- 每个检查节点：**预期输出是什么？**
+- **如果没达到预期，可能是什么原因？**
+- 常见的错误标志和调试建议
+- 例如：运行某段代码后应看到 xxx 数值，如果看到 yyy 则说明环境有问题
+
+让读者拿到这段代码后，能自己判断"哪里没成功"。
+
+### 5. 末尾总结表
 | 实验 | 结果 | 论文图表 | 关键代码 |
 |---|---|---|---|
 
@@ -180,14 +217,72 @@ PROMPTS = {
 - 结尾写："这篇论文不再是一堆静态文字——你刚刚亲眼看着它执行了一遍。"
 
 **如果无法访问代码仓库**，在文件开头用显眼免责声明标明。
+""",
+
+    5: """# Stage 5 任务：研究进化（ResearchEvolution）
+
+你已经完成了论文的完整拆解。现在你的任务是：
+
+**以 Reviewer 的身份，对这篇论文进行一次证据导向的批判性分析。**
+
+## 指令
+
+这篇文档是你作为审稿人写的审稿意见。不是表扬信。
+
+**核心原则：**
+- 观点要**具体**。观点要有**证据**。
+- 避免泛泛而谈。
+- 指出证据不足、实验缺失、假设限制和潜在替代解释。
+
+**文档结构（六大板块，必须全部覆盖）：**
+
+### 1. Reject 的理由
+如果我是审稿人，我会因为什么理由拒掉这篇论文？
+- 方法上有无漏洞？假设是否合理？
+- 实验设计有无缺陷？基线选择是否公平？
+- 结论是否被实验结果充分支持？
+- 写作上有无重大问题？
+
+每个理由都要**具体、尖锐**——不是"实验不够多"，而是"Figure 3 只跑了 3 个 seed，方差没展示"。
+
+### 2. 缺失的实验
+- 哪些关键实验没有做？
+- 如果补上这些实验，结果可能会翻转吗？
+- 有没有遗漏的消融实验（ablation study）？
+
+### 3. 不严谨之处
+- 数学推导中有无跳步/隐含假设？
+- 边界条件是否被忽略了？
+- 有没有 cherry-pick 结果的嫌疑？
+
+### 4. 未来改进方向
+- 如果作者要 rebuttal，可以从哪些角度回应？
+- 哪些地方修一修还能发？
+
+### 5. 创新点挖掘——如何发下一篇论文
+- 基于这篇论文，还能做什么新东西？
+- 故事怎么讲？切入点是什么？
+- 能不能换个领域、换个设定、换个损失函数做成新工作？
+- 投入产出比如何？（容易做但有价值 vs 难做但突破性大）
+
+### 6. 领域空白与方向判断
+- 这个子领域还有哪些明确的空白？
+- 哪些方向值得投入，哪些是坑？
+- 未来 1-2 年最有希望的 research direction 是什么？
+
+**格式要求：**
+- 每条意见要有编号，方便引用
+- 用尖锐但专业的语气——像真的在写审稿意见
+- 结尾给一个整体评分（Accept / Weak Accept / Weak Reject / Reject）
+- 如果是 Reject，给一个具体的 rebuttal 路径
 """
 }
 
 
 def main():
-    parser = argparse.ArgumentParser(description="paper-mentor 阶段管理器")
-    parser.add_argument("--stage", type=int, required=True, choices=[1, 2, 3, 4],
-                        help="阶段编号 1-4")
+    parser = argparse.ArgumentParser(description="paper-reading-mentor 阶段管理器")
+    parser.add_argument("--stage", type=int, required=True, choices=[1, 2, 3, 4, 5],
+                        help="阶段编号 1-5（5 为可选的 Reviewer 研究进化分析）")
     parser.add_argument("--workdir", type=str, default=".",
                         help="工作目录（存放 stage 文件的位置），默认当前目录")
     args = parser.parse_args()

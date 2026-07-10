@@ -1,0 +1,43 @@
+{
+  "skill_name": "paper-reading-mentor",
+  "evals": [
+    {
+      "id": "full_paper_4stage_file_output",
+      "prompt": "带我深入研究这篇论文，按照4个stage来：stage1前置知识树，stage2发明者思维复盘，stage3代码架构重建，stage4实验运行观察",
+      "files": [
+        "evals/files/sample_paper.pdf"
+      ],
+      "expected_output": "Agent 应该在 /agent_vm/paper-reading-output/ 目录下生成4个 markdown 文件：PreKnowledgeTree.md, PaperRebirth.md, ArchitectureBlueprint.md, ExecutionCompanion.md。每个文件自包含、自问自答、行云流水，且首尾有跨文件导航链接。",
+      "assertions": [
+        "生成了 PreKnowledgeTree.md 文件",
+        "生成了 PaperRebirth.md 文件",
+        "生成了 ArchitectureBlueprint.md 文件",
+        "生成了 ExecutionCompanion.md 文件",
+        "PaperRebirth.md 文件中包含自问自答的选择题（给出A/B/C选项并自己解答）",
+        "ArchitectureBlueprint.md 文件以系统建模/数据流图开头",
+        "ExecutionCompanion.md 文件包含 Live Paper 模式的逐步讲解和实验尸检",
+        "各文件首尾存在指向相邻文件的 Markdown 导航链接",
+        "整体风格为短句分行、视觉化"
+      ]
+    },
+    {
+      "id": "optional_stage5_deepseek",
+      "prompt": "带我深入研究这篇论文，按照4个stage来，最后再帮我从审稿人的角度批判分析一下，看看有哪些拒稿理由和未来改进方向。",
+      "files": [
+        "evals/files/sample_paper.pdf"
+      ],
+      "expected_output": "Agent 应该生成5个文件，前4个为标准输出，第5个为 ResearchEvolution.md，包含6大板块的审稿意见。",
+      "assertions": [
+        "生成了 PreKnowledgeTree.md 文件",
+        "生成了 PaperRebirth.md 文件",
+        "生成了 ArchitectureBlueprint.md 文件",
+        "生成了 ExecutionCompanion.md 文件",
+        "生成了 ResearchEvolution.md 文件",
+        "ResearchEvolution.md 包含 Reject 理由分析",
+        "ResearchEvolution.md 包含缺失实验分析",
+        "ResearchEvolution.md 包含创新点挖掘和下一篇论文建议",
+        "ResearchEvolution.md 结尾有整体评分"
+      ]
+    }
+  ]
+}
