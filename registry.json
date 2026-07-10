@@ -2,12 +2,12 @@
   "version": "1.0",
   "repository": "https://github.com/PurrPod/skillpod",
   "skills": {
-    "paper-mentor": {
-      "name": "paper-mentor",
-      "description": "Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete 4-stage deep study — from prerequisites to code architecture to live experiment observation. The skill produces 4 markdown files in a progressive, self-contained reconstruction notebook style.",
+    "paper-reading-mentor": {
+      "name": "paper-reading-mentor",
+      "description": "Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete deep study. Triggers on: deep paper analysis, paper explanation, research reconstruction, paper code walkthrough, paper experiment replication. Do NOT trigger on: reading a paper for a quick summary only, looking up a specific formula or definition, writing a paper review/survey.",
       "author": "PurrCat Contributor",
       "type": "official",
-      "source_url": "https://github.com/PurrPod/skillpod/tree/main/official/paper-mentor"
+      "source_url": "https://github.com/PurrPod/skillpod/tree/main/official/paper-reading-mentor"
     },
     "stem-note-tutor": {
       "name": "stem-note-tutor",
