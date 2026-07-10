@@ -55,7 +55,7 @@ skills/
 <!-- BEGIN_OFFICIAL_TABLE -->
 | 技能短名 (Install ID) | 技能名称 | 描述 | 作者 |
 | :--- | :--- | :--- | :--- |
-| **`stem-note-skill`** | [stem-note-skill](https://github.com/PurrPod/skillpod/tree/main/official/stem-note-skill) | 处理计算机科学（CS）及泛理工科（数学、物理、EE等）资料复习。提供硬性考点覆盖、跨学科题库生成，并自动化编译包含总导航目录(index)的全书级沉浸式分屏交互 HTML。 | PurrCat Official |
+| **`stem-note-tutor`** | [stem-note-tutor](https://github.com/PurrPod/skillpod/tree/main/official/stem-note-tutor) | Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery. | PurrCat Contributor |
 
 <!-- END_OFFICIAL_TABLE -->
 
