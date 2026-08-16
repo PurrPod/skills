@@ -1,38 +1,30 @@
 {
-  "version": "1.0",
-  "repository": "https://github.com/PurrPod/skillpod",
+  "version": "2.0",
+  "repository": "https://github.com/PurrPod/skills",
   "skills": {
-    "paper-mentor": {
-      "name": "paper-mentor",
-      "description": "Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete 4-stage deep study — from prerequisites to code architecture to live experiment observation. The skill produces 4 markdown files in a progressive, self-contained reconstruction notebook style.",
-      "author": "PurrCat Contributor",
-      "type": "official",
-      "source_url": "https://github.com/PurrPod/skillpod/tree/main/official/paper-mentor"
+    "paper-reading-mentor": {
+      "name": "paper-reading-mentor",
+      "desc": "Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete deep study. Triggers on: deep paper analysis, paper explanation, research reconstruction, paper code walkthrough, paper experiment replication. Do NOT trigger on: reading a paper for a quick summary only, looking up a specific formula or definition, writing a paper review/survey.",
+      "author": "PurrPod",
+      "icon-link": "",
+      "skill-single-link": "https://github.com/PurrPod/skills/tree/main/skills/paper-reading-mentor",
+      "repo": "https://github.com/PurrPod/skills"
     },
     "stem-note-tutor": {
       "name": "stem-note-tutor",
-      "description": "Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery.",
-      "author": "PurrCat Contributor",
-      "type": "official",
-      "source_url": "https://github.com/PurrPod/skillpod/tree/main/official/stem-note-tutor"
+      "desc": "Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery.",
+      "author": "PurrPod",
+      "icon-link": "",
+      "skill-single-link": "https://github.com/PurrPod/skills/tree/main/skills/stem-note-tutor",
+      "repo": "https://github.com/PurrPod/skills"
     },
-    "example-skill": {
-      "name": "example-skill",
-      "description": "社区技能示例模板，展示如何编写一个 PurrCat Skill。",
-      "author": "Community Contributor",
-      "type": "community",
-      "source_url": "https://github.com/PurrPod/skillpod/tree/main/community/example-skill",
-      "tags": [
-        "template",
-        "example"
-      ]
-    },
-    "web-scraper": {
-      "name": "Web Scraper",
-      "description": "强大的网页抓取与解析技能。",
-      "author": "Alice",
-      "type": "community",
-      "source_url": "https://github.com/Alice/my-purr-skills/tree/main/web-scraper"
+    "guizang-ppt-skill": {
+      "name": "guizang-ppt-skill",
+      "desc": "生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、演讲者视图、观众屏同步、讲稿备注、章节幕封、数据大字报、图片网格等模板。提供两种风格：① “电子杂志 × 电子墨水”（衬线 + 流体背景 + 暖色） ② “瑞士国际主义”（无衬线 + 网格点阵 + IKB/柠檬黄/柠檬绿/安全橙高亮）。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到“杂志风 PPT”、“瑞士风 PPT”、“Swiss Style”、“horizontal swipe deck”时使用。",
+      "author": "歸藏",
+      "icon-link": "https://avatars.githubusercontent.com/op7418",
+      "skill-single-link": "https://github.com/op7418/guizang-ppt-skill/tree/main",
+      "repo": "https://github.com/op7418/guizang-ppt-skill"
     }
   }
 }
