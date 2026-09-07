@@ -77,7 +77,21 @@ skills/
 <!-- BEGIN_EXTERNAL_TABLE -->
 | 技能名 (Install ID) | 描述 | 作者 | 仓库 |
 | :--- | :--- | :--- | :--- |
+| **`brainstorming`** | You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation. | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`dispatching-parallel-agents`** | Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`executing-plans`** | Use when you have a written implementation plan to execute in a separate session with review checkpoints | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`finishing-a-development-branch`** | Use when implementation is complete, all tests pass, and you need to decide how to integrate the work | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
 | **`guizang-ppt-skill`** | 生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、演讲者视图、观众屏同步、讲稿备注、章节幕封、数据大字报、图片网格等模板。提供两种风格：① “电子杂志 × 电子墨水”（衬线 + 流体背景 + 暖色） ② “瑞士国际主义”（无衬线 + 网格点阵 + IKB/柠檬黄/柠檬绿/安全橙高亮）。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到“杂志风 PPT”、“瑞士风 PPT”、“Swiss Style”、“horizontal swipe deck”时使用。 | 歸藏 | [链接](https://github.com/op7418/guizang-ppt-skill) |
+| **`receiving-code-review`** | Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`requesting-code-review`** | Use when completing tasks, implementing major features, or before merging to verify work meets requirements | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`subagent-driven-development`** | Use when executing implementation plans with independent tasks in the current session | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`systematic-debugging`** | Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`test-driven-development`** | Use when implementing any feature or bugfix, before writing implementation code | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`using-git-worktrees`** | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`using-superpowers`** | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`verification-before-completion`** | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`writing-plans`** | Use when you have a spec or requirements for a multi-step task, before touching code | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
+| **`writing-skills`** | Use when creating new skills, editing existing skills, or verifying skills work before deployment | Jesse Vincent (obra) | [链接](https://github.com/obra/superpowers) |
 
 <!-- END_EXTERNAL_TABLE -->
 
