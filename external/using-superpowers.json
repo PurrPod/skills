@@ -1,0 +1,8 @@
+{
+  "name": "using-superpowers",
+  "desc": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "author": "Jesse Vincent (obra)",
+  "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
+  "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",
+  "repo": "https://github.com/obra/superpowers"
+}

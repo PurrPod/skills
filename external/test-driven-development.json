@@ -1,0 +1,8 @@
+{
+  "name": "test-driven-development",
+  "desc": "Use when implementing any feature or bugfix, before writing implementation code",
+  "author": "Jesse Vincent (obra)",
+  "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
+  "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/test-driven-development",
+  "repo": "https://github.com/obra/superpowers"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "brainstorming",
+  "desc": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+  "author": "Jesse Vincent (obra)",
+  "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
+  "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",
+  "repo": "https://github.com/obra/superpowers"
+}

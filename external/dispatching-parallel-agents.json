@@ -1,0 +1,8 @@
+{
+  "name": "dispatching-parallel-agents",
+  "desc": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+  "author": "Jesse Vincent (obra)",
+  "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
+  "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents",
+  "repo": "https://github.com/obra/superpowers"
+}
