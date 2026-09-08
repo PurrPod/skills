@@ -58,6 +58,14 @@
       "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents",
       "repo": "https://github.com/obra/superpowers"
     },
+    "embedded-captions": {
+      "name": "embedded-captions",
+      "desc": "给现有单主体出镜视频加字幕/烧录字幕而不改原片：逐字 verbatim、人物背后电影感 embed、VFX 特效字幕、35 种风格目录按视觉身份路由（非按引擎）。转写+主体抠像全流程本地端到端，多镜头素材先拆分再用。用户要\"加字幕/炸字幕/特效字幕/指定风格字幕\"时使用。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/embedded-captions",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
     "executing-plans": {
       "name": "executing-plans",
       "desc": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
@@ -65,6 +73,22 @@
       "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
       "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/executing-plans",
       "repo": "https://github.com/obra/superpowers"
+    },
+    "faceless-explainer": {
+      "name": "faceless-explainer",
+      "desc": "把任意文本（文章/笔记/主题/brief）做成无出镜讲解视频：无站点可截，画面按场景现造（typography/抽象图形/图解/数据可视化）。适用主题讲解、概念拆解、How-to、清单体。不是网站转 promo（那走 product-launch-video），不确定先走 hyperframes 入口。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/faceless-explainer",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "figma": {
+      "name": "figma",
+      "desc": "把 Figma 内容导入 HyperFrames 合成：渲染资产、品牌 token、组件、分镜段落重建为动态（帧=状态非幻灯片），支持 REST/CLI 与 connector 辅助动效。用户粘贴 figma.com 链接，或要把 Figma 设计/框架/logo/品牌/动画带入视频或合成时使用。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/figma",
+      "repo": "https://github.com/heygen-com/hyperframes"
     },
     "finishing-a-development-branch": {
       "name": "finishing-a-development-branch",
@@ -81,6 +105,14 @@
       "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
       "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/output-skill",
       "repo": "https://github.com/Leonxlnx/taste-skill"
+    },
+    "general-video": {
+      "name": "general-video",
+      "desc": "无专项工作流匹配时（或 BRIEF flow: companion）自由创作/编辑自定义 HyperFrames 合成：较长多场景片、品牌与 sizzle reel、蒙太奇、静态循环/标题卡、素材混剪、自由构建。短促无旁白动效优先走 motion-graphics；新创作先经 hyperframes 入口路由。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/general-video",
+      "repo": "https://github.com/heygen-com/hyperframes"
     },
     "gpt-taste": {
       "name": "gpt-taste",
@@ -105,6 +137,70 @@
       "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
       "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/soft-skill",
       "repo": "https://github.com/Leonxlnx/taste-skill"
+    },
+    "hyperframes-animation": {
+      "name": "hyperframes-animation",
+      "desc": "HyperFrames 动画知识全集：原子动效规则、多阶段场景蓝图、转场与动效设计技法，含 7 个运行时适配器（GSAP 默认 + Lottie/Three.js/Anime.js/CSS keyframes/Web Animations API/TypeGPU）与 24 种命名文字动效。HyperFrames 原生：单条 paused 时间线、seek-safe、确定性渲染；也用于审计既有合成的 choreography。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-animation",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes-audio": {
+      "name": "hyperframes-audio",
+      "desc": "HyperFrames 合成内已放音轨的混音：淡入淡出/交叉淡化、轨增益与音量自动化、ducking（音乐压人声时 voiceover carve）、单轨效果链（EQ/压缩/限幅/门限/饱和/delay/reverb/chorus/phaser/bitcrush）、子混音总线组。找 BGM/SFX 或生成人声请走 media-use，剪接与轨布局另有其责。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-audio",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes-cli": {
+      "name": "hyperframes-cli",
+      "desc": "HyperFrames CLI 开发闭环全命令：init/add/catalog/capture/lint/check/snapshot/compare/preview/play/present/render(单批与批量)/publish/cloud/cloudrun/lambda/doctor/browser/info/upgrade 等；构建或渲染失败诊断也用。覆盖本地、HeyGen 云、AWS Lambda 与 Google Cloud Run 渲染。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-cli",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes-core": {
+      "name": "hyperframes-core",
+      "desc": "HyperFrames 合成契约（写 composition HTML 前必读）：data-* 时间轴属性、clip 窗口、轨道/子合成/变量、框架媒体播放、确定性渲染规则与校验；也覆盖 Tailwind 工程与 STORYBOARD.md/SCRIPT.md 计划格式。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-core",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes-creative": {
+      "name": "hyperframes-creative",
+      "desc": "HyperFrames 的非动画创意指导：设计 spec（frame.md/design.md）、配色、字体排版、旁白、节拍规划、音频响应视觉、构图模式与品牌/风格决策。原子动效规则与场景蓝图请走 hyperframes-animation。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-creative",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes-keyframes": {
+      "name": "hyperframes-keyframes",
+      "desc": "HyperFrames 合成需要关键帧镜头时用：punch-in/out、变焦、reframe、Ken Burns、运镜、视觉匹配与 whip 交接；含 GSAP/CSS keyframes/Anime.js/WAAPI/FLIP、路径/遮罩/SVG morph/文字拖尾/3D 景深与 hyperframes keyframes 诊断。宽泛场景策略/品牌设计/媒体/字幕/整体规划不归它管。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-keyframes",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes-registry": {
+      "name": "hyperframes-registry",
+      "desc": "HyperFrames registry 块与组件的安装/发现/接线：hyperframes add/catalog、按 tag 整批安装、接线进 index.html、编辑 hyperframes.json；亦覆盖自建块/组件贡献上游（idea→scaffold→validate→PR）。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-registry",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "hyperframes": {
+      "name": "hyperframes",
+      "desc": "HyperFrames 总入口（强制先读）：任何做/改/编/渲视频、动画、动效（promo/讲解/字幕/标题卡/浮层/幻灯片/Remotion 移植）都先走这里；也用于检查/诊断/校验/预览/发布/批量渲染既有 HyperFrames 项目。输入支持 URL、GitHub PR、Figma、文本 brief、素材、音乐；负责恢复项目状态、捕获意图、安装负责工作流并路由领域能力。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes",
+      "repo": "https://github.com/heygen-com/hyperframes"
     },
     "image-to-code": {
       "name": "image-to-code",
@@ -138,6 +234,14 @@
       "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/brutalist-skill",
       "repo": "https://github.com/Leonxlnx/taste-skill"
     },
+    "media-use": {
+      "name": "media-use",
+      "desc": "HyperFrames 项目的统一媒体入口（Media OS）：BGM/SFX/图/图标/logo/人声/调色/LUT 一律 resolve 为冻结本地文件或即贴块+台账记录；目录缺失时经 TTS/音乐/生图模型生成；共享音频引擎覆盖人声、转写、字幕与去背景；可裁切/重构图/变换并跨项目复用资产。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/media-use",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
     "minimalist-ui": {
       "name": "minimalist-ui",
       "desc": "Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows.",
@@ -145,6 +249,38 @@
       "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
       "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/minimalist-skill",
       "repo": "https://github.com/Leonxlnx/taste-skill"
+    },
+    "motion-graphics": {
+      "name": "motion-graphics",
+      "desc": "短促设计主导动效片（动效即信息，通常 <10s 上限 ~30s）：kinetic 文字、数字 count-up、图表 data-viz、logo sting、lower-third/呼出/社媒浮层、动图地图、推文/标题动画、网页 UI 运镜。无旁白无真人主体，出 MP4 或透明叠加层。更长/带旁白/多场景走 general-video。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/motion-graphics",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "music-to-video": {
+      "name": "music-to-video",
+      "desc": "把音乐轨（音频文件/抽音轨的视频/按情绪 brief 生成的曲）变成卡点视频：歌词视频、幻灯片或 kinetic promo。音乐主导全部节奏，用户供图/片也切进同一拍点网格，无任何素材也能零资产成片；带旁白内容走输入匹配工作流。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/music-to-video",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "pr-to-video": {
+      "name": "pr-to-video",
+      "desc": "把 GitHub PR（URL/owner#N 或检出仓库里的\"这个 PR\"）变成代码变更讲解视频：changelog、feature reveal、修复或重构走读，素材来自 diff/commits/files。输入是代码变更而非网站；非产品 promo 也非无 PR 主题讲解。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/pr-to-video",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
+    "product-launch-video": {
+      "name": "product-launch-video",
+      "desc": "把产品/营销 URL、粘贴脚本或 brief 做成产品发布/宣传视频：SaaS promo、功能揭幕、产品 demo、App 与公司发布。用户要营销/发布/推广/揭示产品时使用；任何商业 URL 的默认工作流，网站导览/秀场也路由于此。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/product-launch-video",
+      "repo": "https://github.com/heygen-com/hyperframes"
     },
     "receiving-code-review": {
       "name": "receiving-code-review",
@@ -162,6 +298,14 @@
       "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/redesign-skill",
       "repo": "https://github.com/Leonxlnx/taste-skill"
     },
+    "remotion-to-hyperframes": {
+      "name": "remotion-to-hyperframes",
+      "desc": "把现成 Remotion(React) 合成源码移植为 HyperFrames HTML。仅在用户明确要求 port/convert/migrate/translate 时用（单向、只收 Remotion）；顺带提及/仅参考代码/\"仿我的 Remotion 视频\"属新创作，走 general-video。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/remotion-to-hyperframes",
+      "repo": "https://github.com/heygen-com/hyperframes"
+    },
     "requesting-code-review": {
       "name": "requesting-code-review",
       "desc": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
@@ -169,6 +313,14 @@
       "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
       "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",
       "repo": "https://github.com/obra/superpowers"
+    },
+    "slideshow": {
+      "name": "slideshow",
+      "desc": "创作 HyperFrames 幻灯片——演示/Pitch/可交互 deck：独立 slide、片段渐显、分支跳转、热点导航、内置演讲者模式（含讲稿备注）；也可把现有页面转 deck。产物是可导航 deck 而非渲染 MP4；用户没明确要 slideshow 先确认。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/slideshow",
+      "repo": "https://github.com/heygen-com/hyperframes"
     },
     "stitch-design-taste": {
       "name": "stitch-design-taste",
@@ -193,6 +345,14 @@
       "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
       "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",
       "repo": "https://github.com/obra/superpowers"
+    },
+    "talking-head-recut": {
+      "name": "talking-head-recut",
+      "desc": "给现成出镜/访谈/播客视频叠加定时设计的图形浮层卡（原片不动）：kinetic 标题、lower-thirds、数据 callout、引言、侧栏、画中画，按转写稿同步，画布 16:9/9:16/4:5。用户要\"图形浮层/包装/打扮我的视频\"时用；纯字幕走 embedded-captions。",
+      "author": "HeyGen",
+      "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+      "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/talking-head-recut",
+      "repo": "https://github.com/heygen-com/hyperframes"
     },
     "test-driven-development": {
       "name": "test-driven-development",
