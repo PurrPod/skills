@@ -1,6 +1,6 @@
 {
   "name": "motion-graphics",
-  "desc": "短促设计主导动效片（动效即信息，通常 <10s 上限 ~30s）：kinetic 文字、数字 count-up、图表 data-viz、logo sting、lower-third/呼出/社媒浮层、动图地图、推文/标题动画、网页 UI 运镜。无旁白无真人主体，出 MP4 或透明叠加层。更长/带旁白/多场景走 general-video。",
+  "desc": "A short, design-led motion graphic where motion is the message — kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene → /general-video. Unclear → /hyperframes.",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/motion-graphics",

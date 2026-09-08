@@ -1,6 +1,6 @@
 {
   "name": "hyperframes-creative",
-  "desc": "HyperFrames 的非动画创意指导：设计 spec（frame.md/design.md）、配色、字体排版、旁白、节拍规划、音频响应视觉、构图模式与品牌/风格决策。原子动效规则与场景蓝图请走 hyperframes-animation。",
+  "desc": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-creative",

@@ -1,6 +1,6 @@
 {
   "name": "talking-head-recut",
-  "desc": "给现成出镜/访谈/播客视频叠加定时设计的图形浮层卡（原片不动）：kinetic 标题、lower-thirds、数据 callout、引言、侧栏、画中画，按转写稿同步，画布 16:9/9:16/4:5。用户要\"图形浮层/包装/打扮我的视频\"时用；纯字幕走 embedded-captions。",
+  "desc": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards — kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear → /hyperframes.",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/talking-head-recut",

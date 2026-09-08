@@ -1,6 +1,6 @@
 {
   "name": "faceless-explainer",
-  "desc": "把任意文本（文章/笔记/主题/brief）做成无出镜讲解视频：无站点可截，画面按场景现造（typography/抽象图形/图解/数据可视化）。适用主题讲解、概念拆解、How-to、清单体。不是网站转 promo（那走 product-launch-video），不确定先走 hyperframes 入口。",
+  "desc": "Turn arbitrary text — an article, notes, a topic, a brief — into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video — promo or tour). Unclear → /hyperframes.",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/faceless-explainer",

@@ -1,6 +1,6 @@
 {
   "name": "music-to-video",
-  "desc": "把音乐轨（音频文件/抽音轨的视频/按情绪 brief 生成的曲）变成卡点视频：歌词视频、幻灯片或 kinetic promo。音乐主导全部节奏，用户供图/片也切进同一拍点网格，无任何素材也能零资产成片；带旁白内容走输入匹配工作流。",
+  "desc": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video — lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces → the input-matched workflow (see /hyperframes). Unclear → /hyperframes.",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/music-to-video",

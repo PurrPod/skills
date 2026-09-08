@@ -1,6 +1,6 @@
 {
   "name": "hyperframes-registry",
-  "desc": "HyperFrames registry 块与组件的安装/发现/接线：hyperframes add/catalog、按 tag 整批安装、接线进 index.html、编辑 hyperframes.json；亦覆盖自建块/组件贡献上游（idea→scaffold→validate→PR）。",
+  "desc": "Install, discover, and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add or hyperframes catalog, installing one item or every block matching a tag, wiring an installed item into index.html, or working with hyperframes.json. Covers discovery, install locations, block sub-composition wiring, component snippet merging, and authoring a new block or component to contribute upstream (idea → scaffold → validate → PR).",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-registry",
