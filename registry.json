@@ -60,7 +60,7 @@
     },
     "embedded-captions": {
       "name": "embedded-captions",
-      "desc": "给现有单主体出镜视频加字幕/烧录字幕而不改原片：逐字 verbatim、人物背后电影感 embed、VFX 特效字幕、35 种风格目录按视觉身份路由（非按引擎）。转写+主体抠像全流程本地端到端，多镜头素材先拆分再用。用户要\"加字幕/炸字幕/特效字幕/指定风格字幕\"时使用。",
+      "desc": "Add captions or subtitles to an existing single-subject talking-head video without editing the footage. Use for plain verbatim captions, cinematic captions embedded behind the subject, VFX captions, “炸/特效/酷炫字幕,” or a named identity from the 35-style catalog. Route by visual identity, not by backend engine. The quiet `anchor` rail is the default; embed every word only when the user explicitly wants a fully cinematic treatment. The workflow runs locally end to end, including transcription and subject matting; split multi-shot footage before applying it.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/embedded-captions",
@@ -76,7 +76,7 @@
     },
     "faceless-explainer": {
       "name": "faceless-explainer",
-      "desc": "把任意文本（文章/笔记/主题/brief）做成无出镜讲解视频：无站点可截，画面按场景现造（typography/抽象图形/图解/数据可视化）。适用主题讲解、概念拆解、How-to、清单体。不是网站转 promo（那走 product-launch-video），不确定先走 hyperframes 入口。",
+      "desc": "Turn arbitrary text — an article, notes, a topic, a brief — into a faceless explainer video: there is no site or footage to capture, so the visuals are invented per scene (typography, abstract graphics, diagrams, data-viz). Use for topic explainers, concept breakdowns, how-tos, listicles. Not a video built from a website (/product-launch-video — promo or tour). Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/faceless-explainer",
@@ -84,7 +84,7 @@
     },
     "figma": {
       "name": "figma",
-      "desc": "把 Figma 内容导入 HyperFrames 合成：渲染资产、品牌 token、组件、分镜段落重建为动态（帧=状态非幻灯片），支持 REST/CLI 与 connector 辅助动效。用户粘贴 figma.com 链接，或要把 Figma 设计/框架/logo/品牌/动画带入视频或合成时使用。",
+      "desc": "Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export. Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/figma",
@@ -108,7 +108,7 @@
     },
     "general-video": {
       "name": "general-video",
-      "desc": "无专项工作流匹配时（或 BRIEF flow: companion）自由创作/编辑自定义 HyperFrames 合成：较长多场景片、品牌与 sizzle reel、蒙太奇、静态循环/标题卡、素材混剪、自由构建。短促无旁白动效优先走 motion-graphics；新创作先经 hyperframes 入口路由。",
+      "desc": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/general-video",
@@ -140,7 +140,7 @@
     },
     "hyperframes-animation": {
       "name": "hyperframes-animation",
-      "desc": "HyperFrames 动画知识全集：原子动效规则、多阶段场景蓝图、转场与动效设计技法，含 7 个运行时适配器（GSAP 默认 + Lottie/Three.js/Anime.js/CSS keyframes/Web Animations API/TypeGPU）与 24 种命名文字动效。HyperFrames 原生：单条 paused 时间线、seek-safe、确定性渲染；也用于审计既有合成的 choreography。",
+      "desc": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). Also covers auditing an existing composition's choreography (animation map) and 24 named text-animation effects. HyperFrames-native: single paused timeline, seek-safe, deterministic.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-animation",
@@ -148,7 +148,7 @@
     },
     "hyperframes-audio": {
       "name": "hyperframes-audio",
-      "desc": "HyperFrames 合成内已放音轨的混音：淡入淡出/交叉淡化、轨增益与音量自动化、ducking（音乐压人声时 voiceover carve）、单轨效果链（EQ/压缩/限幅/门限/饱和/delay/reverb/chorus/phaser/bitcrush）、子混音总线组。找 BGM/SFX 或生成人声请走 media-use，剪接与轨布局另有其责。",
+      "desc": "Use when audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes drawn on a track's volume or any effect parameter, or one submix bus carrying a chain, a fader and an automation clock for several tracks at once (`<hf-audio-group>`). Don't use for sourcing or generating audio — finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-audio",
@@ -156,7 +156,7 @@
     },
     "hyperframes-cli": {
       "name": "hyperframes-cli",
-      "desc": "HyperFrames CLI 开发闭环全命令：init/add/catalog/capture/lint/check/snapshot/compare/preview/play/present/render(单批与批量)/publish/cloud/cloudrun/lambda/doctor/browser/info/upgrade 等；构建或渲染失败诊断也用。覆盖本地、HeyGen 云、AWS Lambda 与 Google Cloud Run 渲染。",
+      "desc": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-cli",
@@ -164,7 +164,7 @@
     },
     "hyperframes-core": {
       "name": "hyperframes-core",
-      "desc": "HyperFrames 合成契约（写 composition HTML 前必读）：data-* 时间轴属性、clip 窗口、轨道/子合成/变量、框架媒体播放、确定性渲染规则与校验；也覆盖 Tailwind 工程与 STORYBOARD.md/SCRIPT.md 计划格式。",
+      "desc": "The HyperFrames composition contract — build one renderable project. Use for composition structure, the `data-*` timing attributes, `class=\"clip\"`, tracks, sub-compositions, variables, framework-owned media playback, deterministic-render rules, and validation. Also covers Tailwind projects and the STORYBOARD.md / SCRIPT.md plan formats. Read before writing composition HTML.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-core",
@@ -172,7 +172,7 @@
     },
     "hyperframes-creative": {
       "name": "hyperframes-creative",
-      "desc": "HyperFrames 的非动画创意指导：设计 spec（frame.md/design.md）、配色、字体排版、旁白、节拍规划、音频响应视觉、构图模式与品牌/风格决策。原子动效规则与场景蓝图请走 hyperframes-animation。",
+      "desc": "Non-animation creative direction for HyperFrames videos. Use for design spec (frame.md / design.md) handling, palettes, typography, narration, beat planning, audio-reactive visuals, composition patterns, and brand / style decisions. For atomic motion patterns and scene blueprints, use `hyperframes-animation`.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-creative",
@@ -180,7 +180,7 @@
     },
     "hyperframes-keyframes": {
       "name": "hyperframes-keyframes",
-      "desc": "HyperFrames 合成需要关键帧镜头时用：punch-in/out、变焦、reframe、Ken Burns、运镜、视觉匹配与 whip 交接；含 GSAP/CSS keyframes/Anime.js/WAAPI/FLIP、路径/遮罩/SVG morph/文字拖尾/3D 景深与 hyperframes keyframes 诊断。宽泛场景策略/品牌设计/媒体/字幕/整体规划不归它管。",
+      "desc": "Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-keyframes",
@@ -188,7 +188,7 @@
     },
     "hyperframes-registry": {
       "name": "hyperframes-registry",
-      "desc": "HyperFrames registry 块与组件的安装/发现/接线：hyperframes add/catalog、按 tag 整批安装、接线进 index.html、编辑 hyperframes.json；亦覆盖自建块/组件贡献上游（idea→scaffold→validate→PR）。",
+      "desc": "Install, discover, and wire registry blocks and components into HyperFrames compositions. Use when running hyperframes add or hyperframes catalog, installing one item or every block matching a tag, wiring an installed item into index.html, or working with hyperframes.json. Covers discovery, install locations, block sub-composition wiring, component snippet merging, and authoring a new block or component to contribute upstream (idea → scaffold → validate → PR).",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-registry",
@@ -196,7 +196,7 @@
     },
     "hyperframes": {
       "name": "hyperframes",
-      "desc": "HyperFrames 总入口（强制先读）：任何做/改/编/渲视频、动画、动效（promo/讲解/字幕/标题卡/浮层/幻灯片/Remotion 移植）都先走这里；也用于检查/诊断/校验/预览/发布/批量渲染既有 HyperFrames 项目。输入支持 URL、GitHub PR、Figma、文本 brief、素材、音乐；负责恢复项目状态、捕获意图、安装负责工作流并路由领域能力。",
+      "desc": "Mandatory entry point: read this first for any request to make, create, edit, animate, or render a video, animation, or motion graphic, including a promo, explainer, captioned clip, title card, overlay, slideshow or interactive deck, Remotion port, or any HyperFrames HTML composition. Also use it to inspect, diagnose, validate, preview, publish, or batch-render an existing HyperFrames project. Inputs may be a website URL, GitHub PR, Figma design or URL, text or brief, existing footage, or music. It resumes project state, captures intent when applicable, selects and installs the owning workflow, and routes domain capabilities. HyperFrames is the default output framework unless the user explicitly chooses another framework for the deliverable or asks only to record a browser session.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes",
@@ -236,7 +236,7 @@
     },
     "media-use": {
       "name": "media-use",
-      "desc": "HyperFrames 项目的统一媒体入口（Media OS）：BGM/SFX/图/图标/logo/人声/调色/LUT 一律 resolve 为冻结本地文件或即贴块+台账记录；目录缺失时经 TTS/音乐/生图模型生成；共享音频引擎覆盖人声、转写、字幕与去背景；可裁切/重构图/变换并跨项目复用资产。",
+      "desc": "Agent Media OS, the single skill for every media need in a HyperFrames project. Resolve BGM, SFX, image, icon, brand logo, voice, color grade, or LUT into a frozen local file or paste-ready block + ledger record (one verb, `resolve`); generate via TTS / music / image models when the catalog misses; produce voiceover, transcription, captions, and background removal through one shared audio engine; operate on media (cut / reframe / transform); and reuse assets across projects. Also use for vague feedback that real footage looks dark, flat, boring, should feel retro/camcorder/print/ASCII, needs privacy, or needs a media reveal.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/media-use",
@@ -252,7 +252,7 @@
     },
     "motion-graphics": {
       "name": "motion-graphics",
-      "desc": "短促设计主导动效片（动效即信息，通常 <10s 上限 ~30s）：kinetic 文字、数字 count-up、图表 data-viz、logo sting、lower-third/呼出/社媒浮层、动图地图、推文/标题动画、网页 UI 运镜。无旁白无真人主体，出 MP4 或透明叠加层。更长/带旁白/多场景走 general-video。",
+      "desc": "A short, design-led motion graphic where motion is the message — kinetic typography, stat count-up, chart/data-viz hit, logo sting / brand lockup, lower-third / callout / social overlay, animated map (highlight regions, connect places, zoom to a location), animated tweet / news-article / headline, webpage / UI animation (scroll, cursor, callouts), or fusing a real image's geometry into a chart. Usually under 10s (up to ~30s), no narration or live-action subject; renders to MP4 or transparent overlay. Longer / narrated / multi-scene → /general-video. Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/motion-graphics",
@@ -260,7 +260,7 @@
     },
     "music-to-video": {
       "name": "music-to-video",
-      "desc": "把音乐轨（音频文件/抽音轨的视频/按情绪 brief 生成的曲）变成卡点视频：歌词视频、幻灯片或 kinetic promo。音乐主导全部节奏，用户供图/片也切进同一拍点网格，无任何素材也能零资产成片；带旁白内容走输入匹配工作流。",
+      "desc": "Turn a music track (an audio file, a video to pull audio from, or a track generated from a mood brief) into a beat-synced video — lyric video, slideshow, or kinetic promo. The music drives all pacing; any user-supplied images/videos are cut onto the same beat grid, and a complete video needs zero assets. Narrated pieces → the input-matched workflow (see /hyperframes). Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/music-to-video",
@@ -268,7 +268,7 @@
     },
     "pr-to-video": {
       "name": "pr-to-video",
-      "desc": "把 GitHub PR（URL/owner#N 或检出仓库里的\"这个 PR\"）变成代码变更讲解视频：changelog、feature reveal、修复或重构走读，素材来自 diff/commits/files。输入是代码变更而非网站；非产品 promo 也非无 PR 主题讲解。",
+      "desc": "Turn a GitHub pull request (a PR URL, owner/repo#N, or 'this PR' in a checked-out repo) into a code-change explainer video — changelog, feature reveal, fix, or refactor walkthrough built from the diff, commits, and files: the input is a code change, not a website. Not a product promo (/product-launch-video) or a no-PR topic explainer (/faceless-explainer). Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/pr-to-video",
@@ -276,7 +276,7 @@
     },
     "product-launch-video": {
       "name": "product-launch-video",
-      "desc": "把产品/营销 URL、粘贴脚本或 brief 做成产品发布/宣传视频：SaaS promo、功能揭幕、产品 demo、App 与公司发布。用户要营销/发布/推广/揭示产品时使用；任何商业 URL 的默认工作流，网站导览/秀场也路由于此。",
+      "desc": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video — SaaS promos, feature reveals, product demos, app and company launches. Use when the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Site tours / showcases of a website route here too — the brief carries the show-it-as-is intent. Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/product-launch-video",
@@ -300,7 +300,7 @@
     },
     "remotion-to-hyperframes": {
       "name": "remotion-to-hyperframes",
-      "desc": "把现成 Remotion(React) 合成源码移植为 HyperFrames HTML。仅在用户明确要求 port/convert/migrate/translate 时用（单向、只收 Remotion）；顺带提及/仅参考代码/\"仿我的 Remotion 视频\"属新创作，走 general-video。",
+      "desc": "Port an existing Remotion (React) composition's source to HyperFrames HTML. Use ONLY on an explicit ask to port/convert/migrate/translate a Remotion source — one-way, Remotion-only. A passing Remotion mention, reference-only code, or \"make something like my Remotion video\" is a fresh build (/general-video). Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/remotion-to-hyperframes",
@@ -316,7 +316,7 @@
     },
     "slideshow": {
       "name": "slideshow",
-      "desc": "创作 HyperFrames 幻灯片——演示/Pitch/可交互 deck：独立 slide、片段渐显、分支跳转、热点导航、内置演讲者模式（含讲稿备注）；也可把现有页面转 deck。产物是可导航 deck 而非渲染 MP4；用户没明确要 slideshow 先确认。",
+      "desc": "Author a HyperFrames slideshow — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching, hotspot navigation, and built-in presenter mode with speaker notes; also converts an existing page into a deck. Output is a navigable deck, not a rendered MP4. If the user didn't explicitly ask for a slideshow, confirm before authoring. Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/slideshow",
@@ -348,7 +348,7 @@
     },
     "talking-head-recut": {
       "name": "talking-head-recut",
-      "desc": "给现成出镜/访谈/播客视频叠加定时设计的图形浮层卡（原片不动）：kinetic 标题、lower-thirds、数据 callout、引言、侧栏、画中画，按转写稿同步，画布 16:9/9:16/4:5。用户要\"图形浮层/包装/打扮我的视频\"时用；纯字幕走 embedded-captions。",
+      "desc": "Package an existing talking-head / interview / podcast video with timed, designed GRAPHIC OVERLAY cards — kinetic titles, lower-thirds, data callouts, quotes, side panels, picture-in-picture — synced to the transcript, on a 16:9 / 9:16 / 4:5 canvas of your choice; the clip plays untouched underneath. Trigger on \"graphic overlays\", \"on-screen graphics\", \"package / dress up my video\". Not plain subtitles (/embedded-captions). Unclear → /hyperframes.",
       "author": "HeyGen",
       "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
       "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/talking-head-recut",
