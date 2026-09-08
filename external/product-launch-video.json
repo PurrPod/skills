@@ -1,0 +1,8 @@
+{
+  "name": "product-launch-video",
+  "desc": "把产品/营销 URL、粘贴脚本或 brief 做成产品发布/宣传视频：SaaS promo、功能揭幕、产品 demo、App 与公司发布。用户要营销/发布/推广/揭示产品时使用；任何商业 URL 的默认工作流，网站导览/秀场也路由于此。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/product-launch-video",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

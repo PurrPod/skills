@@ -1,0 +1,8 @@
+{
+  "name": "pr-to-video",
+  "desc": "把 GitHub PR（URL/owner#N 或检出仓库里的\"这个 PR\"）变成代码变更讲解视频：changelog、feature reveal、修复或重构走读，素材来自 diff/commits/files。输入是代码变更而非网站；非产品 promo 也非无 PR 主题讲解。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/pr-to-video",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

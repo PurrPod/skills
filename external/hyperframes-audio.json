@@ -1,0 +1,8 @@
+{
+  "name": "hyperframes-audio",
+  "desc": "HyperFrames 合成内已放音轨的混音：淡入淡出/交叉淡化、轨增益与音量自动化、ducking（音乐压人声时 voiceover carve）、单轨效果链（EQ/压缩/限幅/门限/饱和/delay/reverb/chorus/phaser/bitcrush）、子混音总线组。找 BGM/SFX 或生成人声请走 media-use，剪接与轨布局另有其责。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-audio",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

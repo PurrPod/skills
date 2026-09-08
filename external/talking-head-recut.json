@@ -1,0 +1,8 @@
+{
+  "name": "talking-head-recut",
+  "desc": "给现成出镜/访谈/播客视频叠加定时设计的图形浮层卡（原片不动）：kinetic 标题、lower-thirds、数据 callout、引言、侧栏、画中画，按转写稿同步，画布 16:9/9:16/4:5。用户要\"图形浮层/包装/打扮我的视频\"时用；纯字幕走 embedded-captions。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/talking-head-recut",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

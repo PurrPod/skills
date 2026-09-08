@@ -1,0 +1,8 @@
+{
+  "name": "slideshow",
+  "desc": "创作 HyperFrames 幻灯片——演示/Pitch/可交互 deck：独立 slide、片段渐显、分支跳转、热点导航、内置演讲者模式（含讲稿备注）；也可把现有页面转 deck。产物是可导航 deck 而非渲染 MP4；用户没明确要 slideshow 先确认。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/slideshow",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

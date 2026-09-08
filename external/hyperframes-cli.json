@@ -1,0 +1,8 @@
+{
+  "name": "hyperframes-cli",
+  "desc": "HyperFrames CLI 开发闭环全命令：init/add/catalog/capture/lint/check/snapshot/compare/preview/play/present/render(单批与批量)/publish/cloud/cloudrun/lambda/doctor/browser/info/upgrade 等；构建或渲染失败诊断也用。覆盖本地、HeyGen 云、AWS Lambda 与 Google Cloud Run 渲染。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-cli",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

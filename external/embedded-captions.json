@@ -1,0 +1,8 @@
+{
+  "name": "embedded-captions",
+  "desc": "给现有单主体出镜视频加字幕/烧录字幕而不改原片：逐字 verbatim、人物背后电影感 embed、VFX 特效字幕、35 种风格目录按视觉身份路由（非按引擎）。转写+主体抠像全流程本地端到端，多镜头素材先拆分再用。用户要\"加字幕/炸字幕/特效字幕/指定风格字幕\"时使用。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/embedded-captions",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

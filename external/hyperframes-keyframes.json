@@ -1,0 +1,8 @@
+{
+  "name": "hyperframes-keyframes",
+  "desc": "HyperFrames 合成需要关键帧镜头时用：punch-in/out、变焦、reframe、Ken Burns、运镜、视觉匹配与 whip 交接；含 GSAP/CSS keyframes/Anime.js/WAAPI/FLIP、路径/遮罩/SVG morph/文字拖尾/3D 景深与 hyperframes keyframes 诊断。宽泛场景策略/品牌设计/媒体/字幕/整体规划不归它管。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-keyframes",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

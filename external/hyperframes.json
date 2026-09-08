@@ -1,0 +1,8 @@
+{
+  "name": "hyperframes",
+  "desc": "HyperFrames 总入口（强制先读）：任何做/改/编/渲视频、动画、动效（promo/讲解/字幕/标题卡/浮层/幻灯片/Remotion 移植）都先走这里；也用于检查/诊断/校验/预览/发布/批量渲染既有 HyperFrames 项目。输入支持 URL、GitHub PR、Figma、文本 brief、素材、音乐；负责恢复项目状态、捕获意图、安装负责工作流并路由领域能力。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

@@ -1,0 +1,8 @@
+{
+  "name": "remotion-to-hyperframes",
+  "desc": "把现成 Remotion(React) 合成源码移植为 HyperFrames HTML。仅在用户明确要求 port/convert/migrate/translate 时用（单向、只收 Remotion）；顺带提及/仅参考代码/\"仿我的 Remotion 视频\"属新创作，走 general-video。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/remotion-to-hyperframes",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

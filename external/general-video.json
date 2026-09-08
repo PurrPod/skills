@@ -1,0 +1,8 @@
+{
+  "name": "general-video",
+  "desc": "无专项工作流匹配时（或 BRIEF flow: companion）自由创作/编辑自定义 HyperFrames 合成：较长多场景片、品牌与 sizzle reel、蒙太奇、静态循环/标题卡、素材混剪、自由构建。短促无旁白动效优先走 motion-graphics；新创作先经 hyperframes 入口路由。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/general-video",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

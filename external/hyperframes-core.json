@@ -1,0 +1,8 @@
+{
+  "name": "hyperframes-core",
+  "desc": "HyperFrames 合成契约（写 composition HTML 前必读）：data-* 时间轴属性、clip 窗口、轨道/子合成/变量、框架媒体播放、确定性渲染规则与校验；也覆盖 Tailwind 工程与 STORYBOARD.md/SCRIPT.md 计划格式。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-core",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}

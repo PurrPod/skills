@@ -1,0 +1,8 @@
+{
+  "name": "figma",
+  "desc": "把 Figma 内容导入 HyperFrames 合成：渲染资产、品牌 token、组件、分镜段落重建为动态（帧=状态非幻灯片），支持 REST/CLI 与 connector 辅助动效。用户粘贴 figma.com 链接，或要把 Figma 设计/框架/logo/品牌/动画带入视频或合成时使用。",
+  "author": "HeyGen",
+  "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
+  "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/figma",
+  "repo": "https://github.com/heygen-com/hyperframes"
+}
