@@ -1,6 +1,7 @@
 ---
 name: stem-note-tutor
 description: Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery.
+description-zh: 仅当用户提供理工科（STEM）课程 PDF 或课件资料，并希望获得循序渐进、逐步深化的辅导体验时使用本技能。技能按 4 个递进阶段输出内容——从宏观直觉到应试级公式掌握。
 ---
 
 # stem-note-tutor 分阶段理工科笔记讲解

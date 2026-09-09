@@ -1,6 +1,7 @@
 ---
 name: paper-reading-mentor
 description: Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete deep study. Triggers on: deep paper analysis, paper explanation, research reconstruction, paper code walkthrough, paper experiment replication. Do NOT trigger on: reading a paper for a quick summary only, looking up a specific formula or definition, writing a paper review/survey.
+description-zh: 当用户提供一篇研究论文（PDF 或文本）并希望进行完整的深度研读时使用本技能。触发场景：论文深度分析、论文讲解、研究复现、论文代码走读、论文实验复现。不触发场景：仅为快速摘要而阅读论文、查找某个特定公式或定义、撰写论文综述/评论。
 ---
 
 # Paper Reading Mentor — 4+1 Stage Research Reconstruction

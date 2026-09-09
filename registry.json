@@ -5,6 +5,7 @@
     "paper-reading-mentor": {
       "name": "paper-reading-mentor",
       "desc": "Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete deep study. Triggers on: deep paper analysis, paper explanation, research reconstruction, paper code walkthrough, paper experiment replication. Do NOT trigger on: reading a paper for a quick summary only, looking up a specific formula or definition, writing a paper review/survey.",
+      "desc-zh": "当用户提供一篇研究论文（PDF 或文本）并希望进行完整的深度研读时使用本技能。触发场景：论文深度分析、论文讲解、研究复现、论文代码走读、论文实验复现。不触发场景：仅为快速摘要而阅读论文、查找某个特定公式或定义、撰写论文综述/评论。",
       "author": "PurrPod",
       "icon-link": "",
       "skill-single-link": "https://github.com/PurrPod/skills/tree/main/skills/paper-reading-mentor",
@@ -13,6 +14,7 @@
     "stem-note-tutor": {
       "name": "stem-note-tutor",
       "desc": "Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery.",
+      "desc-zh": "仅当用户提供理工科（STEM）课程 PDF 或课件资料，并希望获得循序渐进、逐步深化的辅导体验时使用本技能。技能按 4 个递进阶段输出内容——从宏观直觉到应试级公式掌握。",
       "author": "PurrPod",
       "icon-link": "",
       "skill-single-link": "https://github.com/PurrPod/skills/tree/main/skills/stem-note-tutor",
@@ -124,7 +126,8 @@
     },
     "guizang-ppt-skill": {
       "name": "guizang-ppt-skill",
-      "desc": "生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、演讲者视图、观众屏同步、讲稿备注、章节幕封、数据大字报、图片网格等模板。提供两种风格：① “电子杂志 × 电子墨水”（衬线 + 流体背景 + 暖色） ② “瑞士国际主义”（无衬线 + 网格点阵 + IKB/柠檬黄/柠檬绿/安全橙高亮）。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到“杂志风 PPT”、“瑞士风 PPT”、“Swiss Style”、“horizontal swipe deck”时使用。",
+      "desc": "Generates horizontal-swipe web slide decks (single HTML file) featuring WebGL backgrounds, presenter view, audience-screen sync, speaker notes, section covers, big-number data posters, image grids, and more. Provides two styles: ① \"E-magazine × E-ink\" (serif + fluid background + warm tones) ② \"Swiss International Style\" (sans-serif + dot grid + IKB/lemon yellow/lemon green/safety orange highlights). Use when the user needs a share / talk / keynote-style web PPT, or mentions \"magazine-style PPT\", \"Swiss-style PPT\", \"Swiss Style\", or \"horizontal swipe deck\".",
+      "desc-zh": "生成横向翻页网页 PPT（单 HTML 文件），含 WebGL 背景、演讲者视图、观众屏同步、讲稿备注、章节幕封、数据大字报、图片网格等模板。提供两种风格：① “电子杂志 × 电子墨水”（衬线 + 流体背景 + 暖色） ② “瑞士国际主义”（无衬线 + 网格点阵 + IKB/柠檬黄/柠檬绿/安全橙高亮）。当用户需要制作分享 / 演讲 / 发布会风格的网页 PPT，或提到“杂志风 PPT”、“瑞士风 PPT”、“Swiss Style”、“horizontal swipe deck”时使用。",
       "author": "歸藏",
       "icon-link": "https://avatars.githubusercontent.com/op7418",
       "skill-single-link": "https://github.com/op7418/guizang-ppt-skill/tree/main",

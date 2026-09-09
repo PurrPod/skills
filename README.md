@@ -50,7 +50,8 @@ skills/
 | 字段 | 说明 |
 | :--- | :--- |
 | `name` | 技能名（必须与 SKILL.md 中的 `name` 一致） |
-| `desc` | 技能描述（必须与 SKILL.md 中的 `description` 一致） |
+| `desc` | 英文技能描述（必须与 SKILL.md 中的 `description` 一致） |
+| `desc-zh` | 中文技能描述（必须与 SKILL.md 中的 `description-zh` 一致） |
 | `author` | 作者 |
 | `icon-link` | 技能图标链接 |
 | `skill-single-link` | 指向技能根目录的链接（如 `https://github.com/PurrPod/skills/tree/main/skills/paper-reading-mentor`） |
@@ -67,8 +68,8 @@ skills/
 <!-- BEGIN_OFFICIAL_TABLE -->
 | 技能名 (Install ID) | 描述 | 作者 | 仓库 |
 | :--- | :--- | :--- | :--- |
-| **`paper-reading-mentor`** | Use this skill when the user provides a research paper (PDF or text) and wants to go through a complete deep study. Triggers on: deep paper analysis, paper explanation, research reconstruction, paper code walkthrough, paper experiment replication. Do NOT trigger on: reading a paper for a quick summary only, looking up a specific formula or definition, writing a paper review/survey. | PurrPod | [链接](https://github.com/PurrPod/skills) |
-| **`stem-note-tutor`** | Use this skill only when the user provides a STEM course PDF or slide material and wants a step-by-step, gradually deepening tutoring experience. The skill delivers prompts in 4 sequential stages — from big-picture intuition to exam-ready formula mastery. | PurrPod | [链接](https://github.com/PurrPod/skills) |
+| **`paper-reading-mentor`** | 当用户提供一篇研究论文（PDF 或文本）并希望进行完整的深度研读时使用本技能。触发场景：论文深度分析、论文讲解、研究复现、论文代码走读、论文实验复现。不触发场景：仅为快速摘要而阅读论文、查找某个特定公式或定义、撰写论文综述/评论。 | PurrPod | [链接](https://github.com/PurrPod/skills) |
+| **`stem-note-tutor`** | 仅当用户提供理工科（STEM）课程 PDF 或课件资料，并希望获得循序渐进、逐步深化的辅导体验时使用本技能。技能按 4 个递进阶段输出内容——从宏观直觉到应试级公式掌握。 | PurrPod | [链接](https://github.com/PurrPod/skills) |
 
 <!-- END_OFFICIAL_TABLE -->
 
@@ -137,12 +138,13 @@ skills/
 
 `skills/` 目录下的技能由 PurrCat 核心团队**直接在本仓库中维护**，不接收外部 PR。如有问题反馈或改进建议，请提交 Issue。
 
-官方技能的 `SKILL.md` 仅需包含 `name` 与 `description` 两个 frontmatter 字段，且 `name` 必须与技能文件夹名称严格一致：
+官方技能的 `SKILL.md` 仅需包含 `name`、`description` 与 `description-zh` 三个 frontmatter 字段，且 `name` 必须与技能文件夹名称严格一致：
 
 ```yaml
 ---
 name: data-analyzer
-description: 提供结构化数据清洗与分析能力。
+description: Provides structured data cleaning and analysis capabilities.
+description-zh: 提供结构化数据清洗与分析能力。
 ---
 ```
 
@@ -156,7 +158,8 @@ description: 提供结构化数据清洗与分析能力。
 ```json
 {
   "name": "data-analyzer",
-  "desc": "提供结构化数据清洗与分析能力。",
+  "desc": "Provides structured data cleaning and analysis capabilities.",
+  "desc-zh": "提供结构化数据清洗与分析能力。",
   "author": "DeveloperName",
   "icon-link": "https://example.com/icon.png",
   "skill-single-link": "https://github.com/DeveloperName/my-skills/tree/main/data-analyzer",
@@ -165,7 +168,7 @@ description: 提供结构化数据清洗与分析能力。
 ```
 
 3. 提交 Pull Request。CI 会自动校验：
-   * JSON 可解析且包含全部 6 个必填字段；
+   * JSON 可解析且包含全部 7 个必填字段；
    * 文件名与 `name` 字段严格一致；
    * `desc` / `name` 需与外部技能 SKILL.md 中的内容保持一致（人工保证）。
 
