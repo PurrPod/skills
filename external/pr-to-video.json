@@ -1,6 +1,7 @@
 {
   "name": "pr-to-video",
   "desc": "Turn a GitHub pull request (a PR URL, owner/repo#N, or 'this PR' in a checked-out repo) into a code-change explainer video — changelog, feature reveal, fix, or refactor walkthrough built from the diff, commits, and files: the input is a code change, not a website. Not a product promo (/product-launch-video) or a no-PR topic explainer (/faceless-explainer). Unclear → /hyperframes.",
+  "desc-zh": "把 GitHub pull request（PR URL、owner/repo#N，或已检出仓库中的“这个 PR”）做成代码变更讲解视频——基于 diff、提交与文件构建更新日志、功能揭秘、修复或重构走读：输入是代码变更而非网站。不是产品宣传（/product-launch-video），也不是无 PR 的主题讲解（/faceless-explainer）。不确定时走 /hyperframes。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/pr-to-video",

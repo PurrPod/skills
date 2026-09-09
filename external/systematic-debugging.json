@@ -1,6 +1,7 @@
 {
   "name": "systematic-debugging",
   "desc": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+  "desc-zh": "在遇到任何缺陷、测试失败或意外行为时、提出修复方案之前使用。",
   "author": "Jesse Vincent (obra)",
   "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
   "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/systematic-debugging",

@@ -1,6 +1,7 @@
 {
   "name": "stitch-design-taste",
   "desc": "Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perpetual micro-motion, and hardware-accelerated performance.",
+  "desc-zh": "面向 Google Stitch 的语义化设计系统技能。生成对 Agent 友好的 DESIGN.md 文件，强制执行高端、反模板化的 UI 标准——严谨的排版、校准的色彩、不对称布局、持续微动效与硬件加速性能。",
   "author": "Leonxlnx",
   "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
   "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/stitch-skill",

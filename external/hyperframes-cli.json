@@ -1,6 +1,7 @@
 {
   "name": "hyperframes-cli",
   "desc": "Use the HyperFrames CLI development loop: init, add, catalog, capture, lint, check, snapshot, compare, grade-compare, preview, play, present, beats, keyframes, single or batch render, publish, cloud, cloudrun, feedback, lambda, doctor, browser, info, upgrade, skills, compositions, docs, benchmark, telemetry, transcribe, auth, tts, and remove-background. Also use when diagnosing build or render failures. validate, inspect, and layout are deprecated aliases; use check. Covers local, HeyGen-hosted cloud, AWS Lambda, and Google Cloud Run rendering.",
+  "desc-zh": "使用 HyperFrames CLI 开发闭环：init、add、catalog、capture、lint、check、snapshot、compare、grade-compare、preview、play、present、beats、keyframes、单条或批量渲染、publish、cloud、cloudrun、feedback、lambda、doctor、browser、info、upgrade、skills、compositions、docs、benchmark、telemetry、transcribe、auth、tts 与 remove-background。也用于诊断构建或渲染失败。validate、inspect、layout 为已废弃别名，请改用 check。覆盖本地、HeyGen 云端、AWS Lambda 与 Google Cloud Run 渲染。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-cli",

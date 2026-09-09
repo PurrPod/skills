@@ -1,6 +1,7 @@
 {
   "name": "redesign-existing-projects",
   "desc": "Upgrades existing websites and apps to premium quality. Audits current design, identifies generic AI patterns, and applies high-end design standards without breaking functionality. Works with any CSS framework or vanilla CSS.",
+  "desc-zh": "将现有网站与应用升级到高端水准。审查当前设计、识别模板化的 AI 味模式，在不破坏功能的前提下应用高端设计标准。兼容任意 CSS 框架或原生 CSS。",
   "author": "Leonxlnx",
   "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
   "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/redesign-skill",

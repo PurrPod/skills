@@ -1,6 +1,7 @@
 {
   "name": "hyperframes-animation",
   "desc": "All animation knowledge for HyperFrames — atomic motion rules, multi-phase scene blueprints, scene transitions, broader motion-design techniques, AND the seven runtime adapters (GSAP default, plus Lottie, Three.js, Anime.js, CSS keyframes, Web Animations API, TypeGPU). Use for any motion or animation task: pick 2-4 rules and compose, or load a blueprint, or look up runtime-specific API (e.g. GSAP eases / Lottie player / Three.js mixer). Also covers auditing an existing composition's choreography (animation map) and 24 named text-animation effects. HyperFrames-native: single paused timeline, seek-safe, deterministic.",
+  "desc-zh": "HyperFrames 的全部动画知识——原子级动效规则、多阶段场景蓝图、场景转场、更广的动效设计技巧，以及七个运行时适配器（默认 GSAP，另有 Lottie、Three.js、Anime.js、CSS 关键帧、Web Animations API、TypeGPU）。适用于任何动效或动画任务：选取 2-4 条规则组合，或加载蓝图，或查询特定运行时 API（如 GSAP 缓动 / Lottie 播放器 / Three.js mixer）。也覆盖对已有组合的编排审计（动画映射）与 24 种命名文字动效。HyperFrames 原生：单一暂停时间轴、可安全 seek、确定性渲染。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-animation",

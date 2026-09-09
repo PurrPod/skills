@@ -1,6 +1,7 @@
 {
   "name": "using-git-worktrees",
   "desc": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+  "desc-zh": "在开始需要与当前工作区隔离的功能开发、或执行实施计划之前使用。通过原生工具或 git worktree 兜底，确保存在隔离的工作区。",
   "author": "Jesse Vincent (obra)",
   "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
   "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees",

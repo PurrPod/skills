@@ -1,6 +1,7 @@
 {
   "name": "product-launch-video",
   "desc": "Turn a product or marketing URL, pasted script, or brief into a product launch / promo video — SaaS promos, feature reveals, product demos, app and company launches. Use when the user wants to market, launch, promote, or reveal a product; the default for any commercial URL. Site tours / showcases of a website route here too — the brief carries the show-it-as-is intent. Unclear → /hyperframes.",
+  "desc-zh": "把产品或营销 URL、粘贴的脚本或简报做成产品发布/宣传片——SaaS 宣传、功能揭秘、产品演示、App 与公司发布。当用户想要营销、发布、推广或揭晓产品时使用；对任何商业 URL 默认走此技能。网站巡览/展示也路由到此处——由简报承载“按原样展示”的意图。不确定时走 /hyperframes。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/product-launch-video",

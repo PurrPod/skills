@@ -1,6 +1,7 @@
 {
   "name": "brainstorming",
   "desc": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+  "desc-zh": "任何创造性工作之前必须使用——新增功能、构建组件、添加能力或修改行为皆属此类。在实现之前先探索用户意图、需求与设计。",
   "author": "Jesse Vincent (obra)",
   "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
   "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/brainstorming",

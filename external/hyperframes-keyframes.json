@@ -1,6 +1,7 @@
 {
   "name": "hyperframes-keyframes",
   "desc": "Use when a HyperFrames composition needs a punch-in, punch-out, zoom, reframe, Ken Burns treatment, camera move, visual match/whip handoff, or other seek-safe 2D/3D keyframes; also for GSAP, CSS keyframes, Anime.js, WAAPI, FLIP, paths, masks, SVG morph/draw, text trails, 3D depth, or `hyperframes keyframes` diagnostics. Don't use for broad scene strategy, brand design, media sourcing, captions, or general video planning.",
+  "desc-zh": "当 HyperFrames 组合需要推近/拉出、缩放、重新构图、Ken Burns 效果、运镜、视觉匹配/甩镜转场或其他可安全 seek 的 2D/3D 关键帧时使用；也适用于 GSAP、CSS 关键帧、Anime.js、WAAPI、FLIP、路径、遮罩、SVG 形变/描边、文字拖尾、3D 纵深，或 `hyperframes keyframes` 诊断。不用于整体场景策略、品牌设计、媒体取材、字幕或常规视频规划。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-keyframes",

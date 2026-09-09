@@ -1,6 +1,7 @@
 {
   "name": "using-superpowers",
   "desc": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+  "desc-zh": "在任何对话开始时使用。确立如何查找和使用技能，要求在给出任何回应（包括澄清性提问）之前先调用相应技能。",
   "author": "Jesse Vincent (obra)",
   "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
   "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/using-superpowers",

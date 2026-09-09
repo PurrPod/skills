@@ -1,6 +1,7 @@
 {
   "name": "requesting-code-review",
   "desc": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+  "desc-zh": "在完成任务、实现重大功能或合并前验证工作是否满足需求时使用。",
   "author": "Jesse Vincent (obra)",
   "icon-link": "https://raw.githubusercontent.com/obra/superpowers/main/assets/app-icon.png",
   "skill-single-link": "https://github.com/obra/superpowers/tree/main/skills/requesting-code-review",

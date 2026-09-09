@@ -1,6 +1,7 @@
 {
   "name": "imagegen-frontend-mobile",
   "desc": "Elite mobile app image-generation skill for creating premium, app-native screen concepts and flows. Designed for iOS, Android, and cross-platform mobile products. Prioritizes clean hierarchy, comfortably readable text, strong multi-screen consistency, controlled color palettes, non-generic creative direction, textured surfaces, image-led composition, tasteful custom iconography, and clean phone mockup framing. By default, screens should be shown inside a subtle premium iPhone or similar phone mockup with a visible frame, while the main focus stays on the app content itself. This skill generates images only. It does not write code.",
+  "desc-zh": "顶级移动端 App 图像生成技能，打造高端、原生质感的界面概念图与流程图。面向 iOS、Android 及跨平台移动产品。优先保证清晰的层级、舒适的文字可读性、多屏一致性、克制的配色、非模板化的创意方向、有质感的表面、以图为主的构图、得体的自定义图标与干净的手机样机框。默认将屏幕置于带边框的精致 iPhone 或类似手机样机中展示，但视觉重心始终是 App 内容本身。本技能只生成图片，不写代码。",
   "author": "Leonxlnx",
   "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
   "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/imagegen-frontend-mobile",

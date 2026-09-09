@@ -1,6 +1,7 @@
 {
   "name": "high-end-visual-design",
   "desc": "Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make AI designs look cheap or generic.",
+  "desc-zh": "教 AI 像高端设计公司一样做设计。定义让网站显得昂贵的字体、间距、阴影、卡片结构与动效，并封禁所有让 AI 设计显得廉价或平庸的常见默认样式。",
   "author": "Leonxlnx",
   "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
   "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/soft-skill",

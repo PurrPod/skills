@@ -1,6 +1,7 @@
 {
   "name": "embedded-captions",
   "desc": "Add captions or subtitles to an existing single-subject talking-head video without editing the footage. Use for plain verbatim captions, cinematic captions embedded behind the subject, VFX captions, “炸/特效/酷炫字幕,” or a named identity from the 35-style catalog. Route by visual identity, not by backend engine. The quiet `anchor` rail is the default; embed every word only when the user explicitly wants a fully cinematic treatment. The workflow runs locally end to end, including transcription and subject matting; split multi-shot footage before applying it.",
+  "desc-zh": "为已有的单一主体口播视频添加字幕，且不改动画面。适用于逐字普通字幕、嵌入人物身后的电影感字幕、VFX 字幕、“炸/特效/酷炫字幕”或 35 种风格目录中的具名样式。按视觉风格而非后端引擎路由。安静的 `anchor` 轨道是默认选择；仅当用户明确要求完整电影感处理时才逐词嵌入。工作流（含转写与主体抠像）全程本地运行；多镜头素材请先拆分再套用。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/embedded-captions",

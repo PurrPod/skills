@@ -1,6 +1,7 @@
 {
   "name": "gpt-taste",
   "desc": "Elite UX/UI & Advanced GSAP Motion Engineer. Enforces Python-driven true randomization for layout variance, strict AIDA page structure, wide editorial typography (bans 6-line wraps), gapless bento grids, strict GSAP ScrollTriggers (pinning, stacking, scrubbing), inline micro-images, and massive section spacing.",
+  "desc-zh": "精英级 UX/UI 与高阶 GSAP 动效工程师。强制用 Python 驱动的真随机化保证布局多样性，严格 AIDA 页面结构、宽幅杂志式排版（禁 6 行折行）、无缝便当网格、严格 GSAP ScrollTrigger（钉住、堆叠、scrub）、内嵌微图与超大区块间距。",
   "author": "Leonxlnx",
   "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
   "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/gpt-tasteskill",

@@ -1,6 +1,7 @@
 {
   "name": "slideshow",
   "desc": "Author a HyperFrames slideshow — a presentation, pitch deck, or interactive deck with discrete slides, fragment reveals, branching, hotspot navigation, and built-in presenter mode with speaker notes; also converts an existing page into a deck. Output is a navigable deck, not a rendered MP4. If the user didn't explicitly ask for a slideshow, confirm before authoring. Unclear → /hyperframes.",
+  "desc-zh": "制作 HyperFrames 幻灯片——演示文稿、路演 deck 或交互式 deck，支持离散翻页、分步揭示、分支、热点导航，以及带演讲者备注的内置演示模式；也可将现有页面转换为 deck。输出是可导航的 deck 而非渲染的 MP4。用户未明确要求幻灯片时先确认再动手。不确定时走 /hyperframes。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/slideshow",

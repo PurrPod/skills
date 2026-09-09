@@ -1,6 +1,7 @@
 {
   "name": "figma",
   "desc": "Import Figma content into a HyperFrames composition — rendered assets, brand tokens, components, storyboard sections → reconstructed motion (frames read as states, not slides) (REST/CLI), connector-assisted motion when available, and shaders from a connector or native export. Use when the user pastes a figma.com link or asks to bring a Figma design, frame, logo, brand, or animation into a video/composition.",
+  "desc-zh": "把 Figma 内容导入 HyperFrames 组合——渲染资产、品牌 token、组件、分镜段落 → 重建动态效果（帧按状态而非幻灯片读取）（REST/CLI）、连接器辅助动效（如可用），以及来自连接器或原生导出的着色器。当用户粘贴 figma.com 链接，或要求把 Figma 设计、帧、logo、品牌或动画带入视频/组合时使用。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/figma",

@@ -1,6 +1,7 @@
 {
   "name": "image-to-code",
   "desc": "Elite website image-to-code skill for Codex. For visually important web tasks, it must first generate the design image(s) itself, deeply analyze them, then implement the website to match them as closely as possible. In Codex, it must prefer large, readable, section-specific images instead of tiny compressed boards, generate fresh standalone images for sections or detail views instead of cropping old ones, avoid lazy under-generation, avoid cards-inside-cards-inside-cards UI, and keep the hero clean, spacious, readable, and visible on a small laptop.",
+  "desc-zh": "面向 Codex 的顶级网页图生码技能。对视觉要求高的网页任务，必须先自行生成设计图，深入分析后再尽可能还原实现。在 Codex 中须优先使用大而清晰、按区块拆分的图片而非小尺寸压缩长图；为区块或细节视图生成全新独立图片而非裁剪旧图；避免偷懒式少生成；避免“卡片套卡片再套卡片”的 UI；保持首屏干净、留白充足、可读、且在小屏笔记本上完整可见。",
   "author": "Leonxlnx",
   "icon-link": "https://raw.githubusercontent.com/Leonxlnx/taste-skill/main/assets/taste-skill-logo.webp",
   "skill-single-link": "https://github.com/Leonxlnx/taste-skill/tree/main/skills/image-to-code-skill",

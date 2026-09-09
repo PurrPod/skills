@@ -1,6 +1,7 @@
 {
   "name": "hyperframes-audio",
   "desc": "Use when audio already placed in a HyperFrames composition needs to be mixed: fade-in/fade-out, crossfade, track gain or volume, volume automation, ducking, a music bed that fights a voiceover (voiceover carve), effects on a track (EQ, compressor, limiter, gate, saturation, delay, reverb, chorus, phaser, bitcrush), automation envelopes drawn on a track's volume or any effect parameter, or one submix bus carrying a chain, a fader and an automation clock for several tracks at once (`<hf-audio-group>`). Don't use for sourcing or generating audio — finding BGM, SFX, or making a voiceover is `/media-use`. Don't use for clip timing or track layout, which is `/hyperframes-core`.",
+  "desc-zh": "当已放入 HyperFrames 组合的音频需要混音时使用：淡入/淡出、交叉渐变、轨道增益或音量、音量自动化、闪避、与人声争抢的背景乐（人声避让）、轨道效果（EQ、压缩器、限制器、门限、饱和、延迟、混响、合唱、移相、比特粉碎）、轨道音量或任意效果参数上的自动化包络，或一条携带效果链、推子与自动化时钟、同时承载多条轨道的子混音总线（`<hf-audio-group>`）。不用于取材或生成音频——找 BGM、音效或配解说请走 /media-use。不用于片段时序或轨道布局，那属于 /hyperframes-core。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/hyperframes-audio",

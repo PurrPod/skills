@@ -1,6 +1,7 @@
 {
   "name": "general-video",
   "desc": "Author or edit a custom HyperFrames composition when no specialized workflow fits, or when BRIEF.md sets flow: companion. Use for longer or multi-scene pieces, brand and sizzle reels, montages, static loops, static title cards, footage remixes, and freeform builds. Use motion-graphics instead for a short unnarrated motion-first unit, including an animated title. Route fresh creation through hyperframes before using this skill.",
+  "desc-zh": "当没有专门工作流适配、或 BRIEF.md 设定 flow: companion 时，创作或编辑自定义 HyperFrames 组合。用于较长或多场景内容、品牌与亮点集锦、混剪、静态循环、静态标题卡、素材重混与自由构建。短小无解说、动效优先的单元（含动画标题）请改用 motion-graphics。全新创建请先经 hyperframes 路由再使用本技能。",
   "author": "HeyGen",
   "icon-link": "https://raw.githubusercontent.com/heygen-com/hyperframes/main/assets/logo.png",
   "skill-single-link": "https://github.com/heygen-com/hyperframes/tree/main/skills/general-video",
